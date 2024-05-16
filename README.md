@@ -2,9 +2,20 @@
 
 The project was generated using the [Clean.Architecture.Solution.Template](https://github.com/jasontaylordev/TestCleanArchitecture) version 8.0.0.
 
+## Create project folder/repo
+run `gh repo create <project-name> --public --clone` to create github repo
+
+## Create new poject
+Run `cd  <project-name>` cd project folder
+Run `dotnet new ca-sln -cf none` to create a new project based on the template
+
 ## Build
 
 Run `dotnet build -tl` to build the solution.
+
+## Test
+Run `cd  <project-name>` cd project folder
+Run `dotnet test --no-build` to run all tests
 
 ## Run
 
